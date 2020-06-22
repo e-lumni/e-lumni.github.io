@@ -1,0 +1,184 @@
+@import url("https://fonts.googleapis.com/css?family=Montserrat:400,600,700|Roboto:300,300i,400,500,700");
+/*---------------------------------------------------- */
+a {
+  text-decoration: none;
+  -webkit-transition: all 0.3s ease-in-out;
+  -o-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+}
+
+a:hover, a:focus {
+  text-decoration: none;
+  outline: none;
+}
+
+body {
+  line-height: 24px;
+  font-size: 14px;
+  font-family: "Roboto", sans-serif;
+  font-weight: normal;
+  color: #777777;
+  background-image: -moz-linear-gradient(  0deg, rgba(37,129,196,.8) 0%, rgb(0, 115, 199) 100%);
+  background-image: -webkit-linear-gradient(  0deg, rgba(37,129,196,.8) 0%, rgb(0, 115, 199) 100%);
+  background-image: -ms-linear-gradient(  0deg, rgba(37,129,196,.8) 0%, rgb(0, 115, 199) 100%);
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 600;
+}
+
+button:focus {
+  outline: none;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+}
+
+svg {
+  position: relative;
+  width: 150% !important;
+  height: 150% !important;
+  transform: translate3d(-100px, 0px, 0px) !important;
+}
+
+@media (min-width: 1200px) {
+  .container {
+    max-width: 1170px;
+  }
+}
+
+.home_banner_area .banner_inner {
+  overflow: hidden;
+  width: 100%;
+  padding: 140px 0px 140px 0px;
+}
+
+.home_banner_area .banner_inner .banner_content {
+  color: #fff;
+}
+
+.home_banner_area .banner_inner .banner_content .col-lg-9 {
+  vertical-align: middle;
+  -ms-flex-item-align: center;
+  align-self: center;
+}
+
+.home_banner_area .banner_inner .banner_content h2 {
+  font-size: 60px;
+  font-weight: bold;
+  font-family: "Montserrat", sans-serif;
+  margin-bottom: 15px;
+  margin-top: -30px;
+}
+
+.home_banner_area .banner_inner .banner_content p {
+  color: #fff;
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
+  max-width: 450px;
+  margin-bottom: 1.5rem;
+  font-size: 14px;
+}
+
+.home_banner_area .banner_inner .banner_content .banner_map_img {
+  text-align: right;
+}
+
+.single-widget p {
+  margin-bottom: 0px;
+}
+
+.single-widget .instafeed {
+  margin-left: -5px;
+  margin-right: -5px;
+}
+
+.single-widget .instafeed li {
+  margin: 5px;
+}
+
+.single-widget .input-group {
+  display: block !important;
+}
+
+.single-widget input {
+  max-width: 100%;
+  width: 100%;
+  border: none;
+  font-size: 13px;
+  line-height: 40px;
+  padding-right: 110px;
+  height: 40px;
+  color: #999999;
+  border-radius: 20px;
+  background: #fff;
+  padding-left: 20px;
+}
+
+.single-widget input.placeholder {
+  color: #999999;
+}
+
+.single-widget input:-moz-placeholder {
+  color: #999999;
+}
+
+.single-widget input::-moz-placeholder {
+  color: #999999;
+}
+
+.single-widget input::-webkit-input-placeholder {
+  color: #999999;
+}
+
+.single-footer-widget input:focus {
+  outline: none;
+}
+
+.single-widget .sub-btn {
+  background-image: -moz-linear-gradient(  0deg, rgba(37,129,196,.8) 0%, rgb(0, 115, 199) 100%);
+  background-image: -webkit-linear-gradient(  0deg, rgba(37,129,196,.8) 0%, rgb(0, 115, 199) 100%);
+  background-image: -ms-linear-gradient(  0deg, rgba(37,129,196,.8) 0%, rgb(0, 115, 199) 100%);
+  color: #fff;
+  font-weight: 500;
+  line-height: 38px;
+  font-size: 12px;
+  padding: 0px 38px;
+  display: inline-block;
+  cursor: pointer;
+  position: absolute;
+  top: 0px;
+  right: -26px;
+  border-radius: 20px;
+  -webkit-transition: all 300ms linear 0s;
+  -o-transition: all 300ms linear 0s;
+  transition: all 300ms linear 0s;
+  outline: none !important;
+  -webkit-box-shadow: none !important;
+  box-shadow: none !important;
+}
+
+.social a {
+  font-size: 20px;
+  line-height: 40px;
+  color: #fff;
+  margin-left: 6px;
+  -webkit-transition: all 0.3s linear;
+  -o-transition: all 0.3s linear;
+  transition: all 0.3s linear;
+  background: transparent;
+  height: 40px;
+  width: 40px;
+  text-align: center;
+  display: inline-block;
+  -webkit-transition: all 300ms linear 0s;
+  -o-transition: all 300ms linear 0s;
+  transition: all 300ms linear 0s;
+}
+
+.social a:hover {
+  color: #fff;
+  background-image: -moz-linear-gradient(  0deg, rgba(37,129,196,.8) 0%, rgb(0, 115, 199) 100%);
+  background-image: -webkit-linear-gradient(  0deg, rgba(37,129,196,.8) 0%, rgb(0, 115, 199) 100%);
+  background-image: -ms-linear-gradient(  0deg, rgba(37,129,196,.8) 0%, rgb(0, 115, 199) 100%);
+}
